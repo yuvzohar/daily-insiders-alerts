@@ -78,3 +78,5 @@ The first run **does not send any alerts** — it only seeds the seen-set with w
 📅 Jun 03 '26  |  💰 $1,234,567  |  📈 10,000 shares @ $123.45
 🔗 SEC Form 4: https://...
 ```
+
+# trigger cron
