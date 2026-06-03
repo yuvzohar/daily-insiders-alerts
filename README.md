@@ -81,3 +81,5 @@ The first run **does not send any alerts** — it only seeds the seen-set with w
 
 # trigger cron
  
+test
+test
