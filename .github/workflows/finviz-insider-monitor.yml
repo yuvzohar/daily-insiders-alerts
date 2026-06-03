@@ -2,21 +2,24 @@ name: Finviz Insider Buy Monitor
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # every 5 minutes (UTC). GitHub may delay under load.
-  workflow_dispatch:          # allow manual runs from the Actions tab
+    - cron: "*/5 * * * *"   # every 5 min — GitHub may delay; self-loop below is the reliable trigger
+  workflow_dispatch:          # manual runs + self-loop trigger
+  push:
+    branches: [main]          # run immediately on every push to main
 
-# Prevent overlapping runs from racing on the committed state file
+# Prevent overlapping runs from racing on the state file
 concurrency:
   group: finviz-insider-monitor
   cancel-in-progress: false
 
 permissions:
-  contents: write             # needed to commit the state file back
+  contents: write
+  actions: write              # needed for gh workflow run (self-dispatch)
 
 jobs:
+  # ── Job 1: do the actual work (fast, ~15s) ──────────────────────────────────
   monitor:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -37,9 +40,8 @@ jobs:
           CLICKUP_LIST_ID: "901818545610"
           CLICKUP_CHANNEL_ID: "2kzmtvyf-698"
           FINVIZ_STATE_FILE: .state/seen.json
-          # Optional filters (set as repo vars or leave blank for defaults)
-          MIN_VALUE_USD: ${{ vars.MIN_VALUE_USD }}       # e.g. 50000 — skip buys below this value
-          MIN_SHARES: ${{ vars.MIN_SHARES }}             # e.g. 1000  — skip buys below this share count
+          MIN_VALUE_USD: ${{ vars.MIN_VALUE_USD }}
+          MIN_SHARES: ${{ vars.MIN_SHARES }}
         run: python finviz_monitor.py
 
       - name: Persist dedupe state
@@ -53,3 +55,25 @@ jobs:
             git commit -m "chore: update Finviz insider dedupe state [skip ci]"
             git push
           fi
+
+  # ── Job 2: wait 5 min then re-trigger (runs in parallel, costs ~5 min) ──────
+  # This is the self-loop that guarantees continuous execution even if GitHub's
+  # cron scheduler delays or skips runs. Job 2 is a tiny Alpine container that
+  # just sleeps then fires a new workflow_dispatch — no code runs here.
+  reschedule:
+    runs-on: ubuntu-latest
+    # Only self-loop on workflow_dispatch and schedule — not on push (avoids
+    # infinite rapid-fire loops when you push commits).
+    if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
+    steps:
+      - name: Wait 5 minutes
+        run: sleep 300
+
+      - name: Re-dispatch workflow
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run finviz-insider-monitor.yml \
+            --repo ${{ github.repository }} \
+            --ref main
+          echo "✅ Next run dispatched."
