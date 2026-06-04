@@ -217,7 +217,7 @@ _Detected at {now_utc} by Finviz insider monitor_
     payload = {
         "name":                 f"🟢 Insider Buy: {row['ticker']} — {row['owner']} ({row['relationship']})",
         "markdown_description": markdown_desc,
-        "priority":             2,   # 1=urgent 2=high 3=normal 4=low
+        "priority": 2 if parse_numeric(row["value"]) >= 800_000 else 3,  # high ≥$800k, normal otherwise -- # "priority": 2,
         "tags":                 ["insider-buy", "trading-signal"],
     }
 
