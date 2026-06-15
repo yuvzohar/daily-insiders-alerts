@@ -1,9 +1,4 @@
 {
-  "HFRO|Saba Capital Management, L.P.|Jun 03 '26|189,410": true,
-  "GF|Saba Capital Management, L.P.|Jun 03 '26|1,194": true,
-  "HBAN|ROLLINS JAMES D III|Jun 04 '26|97,399": true,
-  "HBAN|ROLLINS JAMES D III|Jun 03 '26|120,230": true,
-  "HBAN|ROLLINS JAMES D III|Jun 02 '26|183,596": true,
   "SMMT|Zanganeh Mahkam|Jun 04 '26|1,460,000": true,
   "STRR|Eberwein Jeffrey E.|Jun 04 '26|16,459": true,
   "STRR|Eberwein Jeffrey E.|Jun 03 '26|1,163": true,
@@ -498,5 +493,10 @@
   "PAR|Pascal Keith|Jun 12 '26|197,080": true,
   "ECL|Clark Benjamin M.|Jun 11 '26|263,831": true,
   "TUSK|Amron Arthur H|Jun 12 '26|6,560": true,
-  "TUSK|Amron Arthur H|Jun 11 '26|8,050": true
+  "TUSK|Amron Arthur H|Jun 11 '26|8,050": true,
+  "KRMD|KALBERMATTEN ADAM R|Jun 11 '26|49,275": true,
+  "MSIF|Gilbert Cory|Jun 11 '26|11,780": true,
+  "RYAN|Kuczinski Anthony J|Jun 12 '26|17,885": true,
+  "RYAN|Kuczinski Anthony J|Jun 11 '26|87,075": true,
+  "NDAQ|INVESTOR AB|Jun 11 '26|4,882,116": true
 }
