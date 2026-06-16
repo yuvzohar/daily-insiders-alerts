@@ -1,9 +1,4 @@
 {
-  "ENR|Aqua Capital, Ltd.|Jun 03 '26|658,146": true,
-  "CMTV|Martin Carol|Jun 03 '26|2,592": true,
-  "AXIA|Corso Matte Ana Silvia|Jun 03 '26|9,690": true,
-  "SOPH|CARDOZA GEORGE|Jun 05 '26|99,000": true,
-  "CSWC|Thomas William R III|Jun 05 '26|117,000": true,
   "CAVA|KADOW JOSEPH JOHN|Jun 03 '26|70,000": true,
   "HQI|Hermanns Richard|Jun 03 '26|13,747": true,
   "INR|Quinn William J|Jun 03 '26|138,640": true,
@@ -498,5 +493,10 @@
   "PBLS|RA CAPITAL MANAGEMENT, L.P.|Jun 11 '26|423,775,000": true,
   "ENPH|Trivedi Shanker|Jun 12 '26|53,910": true,
   "LODE|Pei Steven Yu-Tsung|Jun 12 '26|615,705": true,
-  "LODE|Pei Steven Yu-Tsung|Jun 11 '26|408,520": true
+  "LODE|Pei Steven Yu-Tsung|Jun 11 '26|408,520": true,
+  "ACOG|Opaleye Management Inc.|Jun 15 '26|27,253": true,
+  "ACOG|Opaleye Management Inc.|Jun 12 '26|1,619": true,
+  "ACOG|Opaleye Management Inc.|Jun 11 '26|16,901": true,
+  "BAC|BANK OF AMERICA CORP /DE/|Jun 11 '26|0": true,
+  "ADTX|BANK OF AMERICA CORP /DE/|Jun 11 '26|0": true
 }
