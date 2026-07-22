@@ -1,7 +1,4 @@
 {
-  "MERC|KELLOGG PETER R|Jun 11 '26|116,946": true,
-  "MERC|KELLOGG PETER R|Jun 10 '26|29,675": true,
-  "MERC|KELLOGG PETER R|Jun 09 '26|18,763": true,
   "MERC|KELLOGG PETER R|Jun 08 '26|27,731": true,
   "MERC|KELLOGG PETER R|Jun 05 '26|30,593": true,
   "MERC|KELLOGG PETER R|Jun 04 '26|32,018": true,
@@ -498,5 +495,8 @@
   "SSWZ|SELL MORITZ A|Jul 21 '26|2,850": true,
   "SSWZ|SELL MORITZ A|Jul 20 '26|5,930": true,
   "HHDSN|Hartree Partners, LP|Jul 21 '26|285,742": true,
-  "HHDSN|Hartree Partners, LP|Jul 20 '26|106,859": true
+  "HHDSN|Hartree Partners, LP|Jul 20 '26|106,859": true,
+  "PPBLS|RA CAPITAL MANAGEMENT, L.P.|Jul 22 '26|1,406,632": true,
+  "PPBLS|RA CAPITAL MANAGEMENT, L.P.|Jul 21 '26|1,928,032": true,
+  "PPBLS|RA CAPITAL MANAGEMENT, L.P.|Jul 20 '26|3,584,887": true
 }
