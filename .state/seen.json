@@ -1,13 +1,4 @@
 {
-  "IINDV|Anderson Woodrow D|Aug 05 '26|54,420": true,
-  "CCAMP|Young Richard A|Aug 03 '26|27,024": true,
-  "CCAMP|Maricich Yuri|Aug 03 '26|10,809": true,
-  "CCAMP|Gold Kelly|Aug 03 '26|10,809": true,
-  "CCAMP|Mandel-Brehm Josh|Aug 03 '26|10,809": true,
-  "HHLI|ALLEY J LINDSEY|Aug 03 '26|500,570": true,
-  "GGBFH|NEWGARD JEFFREY K|Aug 04 '26|281,382": true,
-  "GGBFH|NEWGARD JEFFREY K|Aug 03 '26|417,643": true,
-  "GGBFH|NIGRO EDWARD MICHAEL|Aug 04 '26|197,852": true,
   "GGBFH|Herbst Timothy P|Aug 04 '26|214,971": true,
   "GGBFH|Nigro Todd Anthony|Aug 04 '26|105,350": true,
   "WWCC|Castillo Daniel J|Aug 04 '26|351,254": true,
@@ -498,5 +489,14 @@
   "PPAL|Rice Amy F.|Aug 13 '26|5,522": true,
   "PPAL|Lal Rohit|Aug 14 '26|55,300": true,
   "PPAL|Lal Rohit|Aug 13 '26|217,200": true,
-  "NNXH|LEMONIS MARCUS|Aug 12 '26|99,304": true
+  "NNXH|LEMONIS MARCUS|Aug 12 '26|99,304": true,
+  "EENHA|Apeiron Investment Group Ltd.|Aug 14 '26|295,620": true,
+  "FFOCL|Horn David R.|Aug 14 '26|47,500": true,
+  "FFOCL|Schulz Fran|Aug 14 '26|47,500": true,
+  "FFOCL|LEVINE JOSHUA|Aug 14 '26|47,500": true,
+  "FFOCL|Mobeck Kenneth S.|Aug 14 '26|23,750": true,
+  "FFOCL|WILLSEY LANCE|Aug 14 '26|237,500": true,
+  "FFOCL|Rhodes Ryan|Aug 14 '26|99,750": true,
+  "FFOCL|Shah Sanket|Aug 14 '26|23,750": true,
+  "FFOCL|Annen Steven|Aug 14 '26|23,750": true
 }
