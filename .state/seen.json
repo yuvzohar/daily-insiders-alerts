@@ -1,10 +1,4 @@
 {
-  "GGPUS|AULT MILTON C III|Sep 11 '26|383": true,
-  "EEP|Matschke Mason H.|Sep 11 '26|13,730": true,
-  "VVTSI|BARBER GRANT|Sep 14 '26|4,425": true,
-  "LLMB|Horowitz Joshua|Sep 15 '26|203,258": true,
-  "LLMB|Horowitz Joshua|Sep 15 '26|10,740": true,
-  "LLMB|Horowitz Joshua|Sep 11 '26|127,425": true,
   "LLMB|Horowitz Joshua|Sep 11 '26|49,590": true,
   "CCINT|Guicardi Neto Bruno|Sep 11 '26|17,299": true,
   "CCINT|Guicardi Neto Bruno|Sep 10 '26|310": true,
@@ -498,5 +492,11 @@
   "IINBX|Lappe Mark|Sep 25 '26|545,357": true,
   "FFNWD|Scheub Todd M.|Sep 25 '26|1,407": true,
   "IINR|Baetz Cary D|Sep 25 '26|4,291": true,
-  "IINR|Baetz Cary D|Sep 24 '26|295,702": true
+  "IINR|Baetz Cary D|Sep 24 '26|295,702": true,
+  "LLILAK|MALONE JOHN C|Sep 28 '26|162,300": true,
+  "LLILAK|MALONE JOHN C|Sep 25 '26|273,143": true,
+  "LLILAK|MALONE JOHN C|Sep 24 '26|23,211": true,
+  "LLILA|MALONE JOHN C|Sep 28 '26|162,300": true,
+  "LLILA|MALONE JOHN C|Sep 25 '26|273,143": true,
+  "LLILA|MALONE JOHN C|Sep 24 '26|23,211": true
 }
