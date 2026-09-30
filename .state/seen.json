@@ -1,13 +1,4 @@
 {
-  "MMCFT|Nelson Bradley M.|Sep 15 '26|48,745": true,
-  "MMCFT|Lambert Roch|Sep 15 '26|75,016": true,
-  "YYDES|Shen Ethan PhD|Sep 14 '26|48,895": true,
-  "PPHIO|BRADFORD PATRICIA A|Sep 15 '26|12,360": true,
-  "IINLX|SEID PAUL|Sep 14 '26|4,247": true,
-  "IINLX|SEID PAUL|Sep 15 '26|1,656": true,
-  "TTELA|Capper Joseph H|Sep 14 '26|25,502": true,
-  "TTELA|Capper Joseph H|Sep 15 '26|52,940": true,
-  "FFBNC|Nevin Katharine Caldwell|Sep 11 '26|14,837": true,
   "IINM|ADAR1 Capital Management, LLC|Sep 14 '26|36,880": true,
   "IINM|ADAR1 Capital Management, LLC|Sep 15 '26|70,446": true,
   "IINM|ADAR1 Capital Management, LLC|Sep 16 '26|10,750": true,
@@ -498,5 +489,14 @@
   "IINLX|SEID PAUL|Sep 30 '26|149": true,
   "IINLX|SEID PAUL|Sep 28 '26|798": true,
   "CCLPR|Bistricer Jacob|Sep 28 '26|246,225": true,
-  "BBCDA|Altman Peter|Sep 29 '26|1,030": true
+  "BBCDA|Altman Peter|Sep 29 '26|1,030": true,
+  "LLEN|BERKSHIRE HATHAWAY INC|Sep 30 '26|52,441,313": true,
+  "LLEN|BERKSHIRE HATHAWAY INC|Sep 29 '26|1,015,084": true,
+  "LLEN|BERKSHIRE HATHAWAY INC|Sep 28 '26|426,192": true,
+  "BBRK-B|BERKSHIRE HATHAWAY INC|Sep 30 '26|52,441,313": true,
+  "BBRK-B|BERKSHIRE HATHAWAY INC|Sep 29 '26|1,015,084": true,
+  "BBRK-B|BERKSHIRE HATHAWAY INC|Sep 28 '26|426,192": true,
+  "BBRK-A|BERKSHIRE HATHAWAY INC|Sep 30 '26|52,441,313": true,
+  "BBRK-A|BERKSHIRE HATHAWAY INC|Sep 29 '26|1,015,084": true,
+  "BBRK-A|BERKSHIRE HATHAWAY INC|Sep 28 '26|426,192": true
 }
