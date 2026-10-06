@@ -1,6 +1,4 @@
 {
-  "BBRK-B|BERKSHIRE HATHAWAY INC|Sep 21 '26|51,861,287": true,
-  "BBRK-B|BERKSHIRE HATHAWAY INC|Sep 18 '26|105,644,547": true,
   "BBRK-B|BERKSHIRE HATHAWAY INC|Sep 17 '26|54,889,317": true,
   "BBRK-A|BERKSHIRE HATHAWAY INC|Sep 21 '26|51,861,287": true,
   "BBRK-A|BERKSHIRE HATHAWAY INC|Sep 18 '26|105,644,547": true,
@@ -498,5 +496,7 @@
   "AACCV|JONES GINGER M|Oct 01 '26|180,000": true,
   "AACCV|HECKES HOWARD C|Oct 01 '26|90,000": true,
   "AACCV|Donahue Paul D|Oct 01 '26|126,000": true,
-  "AACCV|Jewell Brent C|Oct 01 '26|45,000": true
+  "AACCV|Jewell Brent C|Oct 01 '26|45,000": true,
+  "AACCV|Rubiera Michael|Oct 01 '26|57,600": true,
+  "AACCV|Rubiera Michael|Oct 01 '26|3,600,000": true
 }
