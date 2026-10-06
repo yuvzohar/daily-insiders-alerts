@@ -1,6 +1,4 @@
 {
-  "BBRK-B|BERKSHIRE HATHAWAY INC|Sep 17 '26|54,889,317": true,
-  "BBRK-A|BERKSHIRE HATHAWAY INC|Sep 21 '26|51,861,287": true,
   "BBRK-A|BERKSHIRE HATHAWAY INC|Sep 18 '26|105,644,547": true,
   "BBRK-A|BERKSHIRE HATHAWAY INC|Sep 17 '26|54,889,317": true,
   "EENHA|Apeiron Investment Group Ltd.|Sep 17 '26|6,992,054": true,
@@ -498,5 +496,7 @@
   "AACCV|Donahue Paul D|Oct 01 '26|126,000": true,
   "AACCV|Jewell Brent C|Oct 01 '26|45,000": true,
   "AACCV|Rubiera Michael|Oct 01 '26|57,600": true,
-  "AACCV|Rubiera Michael|Oct 01 '26|3,600,000": true
+  "AACCV|Rubiera Michael|Oct 01 '26|3,600,000": true,
+  "AAVR|L1 Capital Pty Ltd|Oct 05 '26|4,869,897": true,
+  "AAVR|L1 Capital Pty Ltd|Oct 02 '26|1,838,834": true
 }
