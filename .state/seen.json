@@ -1,5 +1,4 @@
 {
-  "LLEN|BERKSHIRE HATHAWAY INC|Sep 23 '26|43,619,906": true,
   "BBRK-B|BERKSHIRE HATHAWAY INC|Sep 25 '26|39,923,418": true,
   "BBRK-B|BERKSHIRE HATHAWAY INC|Sep 24 '26|52,839,466": true,
   "BBRK-B|BERKSHIRE HATHAWAY INC|Sep 23 '26|43,619,906": true,
@@ -498,5 +497,6 @@
   "IIMMR|Singer Eric|Oct 07 '26|292,800": true,
   "IINM|ADAR1 Capital Management, LLC|Oct 08 '26|2,997": true,
   "IINM|ADAR1 Capital Management, LLC|Oct 07 '26|4,051": true,
-  "IINM|ADAR1 Capital Management, LLC|Oct 06 '26|7,436": true
+  "IINM|ADAR1 Capital Management, LLC|Oct 06 '26|7,436": true,
+  "AAVR|L1 Capital Pty Ltd|Oct 06 '26|1,957,950": true
 }
