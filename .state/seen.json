@@ -1,6 +1,4 @@
 {
-  "BBRK-B|BERKSHIRE HATHAWAY INC|Sep 30 '26|52,441,313": true,
-  "BBRK-B|BERKSHIRE HATHAWAY INC|Sep 29 '26|1,015,084": true,
   "BBRK-B|BERKSHIRE HATHAWAY INC|Sep 28 '26|426,192": true,
   "BBRK-A|BERKSHIRE HATHAWAY INC|Sep 30 '26|52,441,313": true,
   "BBRK-A|BERKSHIRE HATHAWAY INC|Sep 29 '26|1,015,084": true,
@@ -498,5 +496,7 @@
   "BBORR|Troim Tor Olav|Oct 14 '26|3,542,550": true,
   "NNEOV|Hass John A|Sep 30 '26|65,250": true,
   "QQTEX|Parnes Tal|Oct 15 '26|9,999": true,
-  "VVMO|Setcavage Rebecca|Oct 13 '26|25,920": true
+  "VVMO|Setcavage Rebecca|Oct 13 '26|25,920": true,
+  "GGOLD|Tether Global Investments Fund|Oct 14 '26|998,747": true,
+  "GGOLD|Tether Global Investments Fund|Oct 13 '26|1,703,737": true
 }
